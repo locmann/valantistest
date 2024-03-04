@@ -1,0 +1,19 @@
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    & svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
+.btn:hover {
+    cursor: pointer;
+}

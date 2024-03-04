@@ -1,0 +1,3 @@
+type ResponseIds = {
+  result: string[]
+}
